@@ -1,4 +1,5 @@
 function fnc(){
-    console.log(fnc() + 'chk');
+    // console.log(`chk`);s
+    fnc(console.log(`chk`))
 }
 fnc();

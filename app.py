@@ -1,4 +1,4 @@
 def fnc():
-  print(fnc() +'chk');
+  fnc(print('chk'))
 
 fnc()
