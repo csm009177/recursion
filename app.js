@@ -1,5 +1,4 @@
 function fnc(){
-    console.log('소사')*10;
-    fnc();
+    console.log(fnc() + 'chk');
 }
 fnc();
